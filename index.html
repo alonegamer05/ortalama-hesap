@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Hesaplama</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Not Hesaplama</h1>
+        <form id="gradesForm">
+            <div class="input-group">
+                <label>Deri, Deri ekleri ve Hareket Sistemi (7 kredi):</label>
+                <input type="number" id="grade1" required>
+            </div>
+            <div class="input-group">
+                <label>Sinir Sistemi ve Duyu Organları (10 kredi):</label>
+                <input type="number" id="grade2" required>
+            </div>
+            <div class="input-group">
+                <label>Dolaşım Sistemi (7 kredi):</label>
+                <input type="number" id="grade3" required>
+            </div>
+            <div class="input-group">
+                <label>Solunum Sistemi (6 kredi):</label>
+                <input type="number" id="grade4" required>
+            </div>
+            <div class="input-group">
+                <label>Sindirim Sistemi (8 kredi):</label>
+                <input type="number" id="grade5" required>
+            </div>
+            <div class="input-group">
+                <label>Üriner Sistem (6 kredi):</label>
+                <input type="number" id="grade6" required>
+            </div>
+            <div class="input-group">
+                <label>Endokrin ve Üreme Sistemi (8 kredi):</label>
+                <input type="number" id="grade7" required>
+            </div>
+            <button type="button" onclick="calculate()">Hesapla</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
